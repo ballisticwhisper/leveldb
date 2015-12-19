@@ -34,6 +34,10 @@
 #undef DeleteFile
 #endif
 
+#ifdef _WINDOWS
+#pragma comment(lib,"Shlwapi.lib")
+#endif
+
 //Declarations
 namespace leveldb
 {

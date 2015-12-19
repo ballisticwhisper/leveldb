@@ -7,8 +7,11 @@
 
 #include <stdint.h>
 #include <stdio.h>
+#include <BaseTsd.h>
 #include "leveldb/iterator.h"
 #include "leveldb/options.h"
+
+typedef SSIZE_T ssize_t;
 
 namespace leveldb {
 
